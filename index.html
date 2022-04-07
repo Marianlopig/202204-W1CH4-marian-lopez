@@ -18,17 +18,37 @@
           <div><p>Acerca de</p></div>
         </section>
       </nav>
-      <section>
-        <img src="images/add.svg" alt="agregar item" />
-        <p>2/3 comprados</p>
+      <section class="add-container">
+        <div class="add-container__button">
+          <img src="images/add.svg" alt="icono agregar item" />
+        </div>
+        <div class="add-container__counter"><p>2/3 comprados</p></div>
       </section>
-      <article>
-        <section>
+      <article class="list">
+        <section class="list__items">
+          <section class="list__items--each-item">
           <input type="checkbox" value="first_checkbox" />
           <p>Pan</p>
           <p>0,75€</p>
           <img src="images/cancel.svg" alt="cancel line" />
         </section>
+        <section class="list__items--each-item">
+          <input type="checkbox" value="first_checkbox" />
+          <p>Azúcar</p>
+          <p></p>
+          <img src="images/cancel.svg" alt="cancel line" />
+        </section>
+        <section class="list__items--each-item">
+          <input type="checkbox" value="first_checkbox" />
+          <p>Leche</p>
+          <p>1,20€</p>
+          <img src="images/cancel.svg" alt="cancel line" />
+        </section>
+        </section>
+        <section>
+          <p>1,95€</p>
+        </section>
+        </article>
       </article>
     </div>
   </body>

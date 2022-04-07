@@ -15,12 +15,12 @@ body {
   display: flex;
   background-color: #5e81d1;
   padding: 10px;
+  align-items: center;
 }
 .menu__title {
   flex: 1;
   justify-content: flex-start;
   font-size: 20px;
-  background-color: #f87500;
 }
 .menu__options {
   flex: 1;
@@ -39,4 +39,30 @@ body {
 .menu__options--3 {
   flex: 1;
   justify-content: center;
+}
+.add-container {
+  display: flex;
+  background-color: #f87500;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.add-container__button {
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+}
+.add-container__counter {
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list__items {
+  display: flex;
+  flex-direction: column;
+}
+.list__items--each-item {
+  flex-direction: row;
 }
