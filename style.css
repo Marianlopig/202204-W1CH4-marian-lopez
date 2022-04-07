@@ -2,3 +2,41 @@
   width: 20px;
   height: 20px;
 }
+body {
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  background-color: #5e81d1;
+  padding: 10px;
+}
+.menu__title {
+  flex: 1;
+  justify-content: flex-start;
+  font-size: 20px;
+  background-color: #f87500;
+}
+.menu__options {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu__options--1 {
+  flex: 1;
+  justify-content: center;
+}
+.menu__options--2 {
+  flex: 1;
+  justify-content: center;
+}
+.menu__options--3 {
+  flex: 1;
+  justify-content: center;
+}
